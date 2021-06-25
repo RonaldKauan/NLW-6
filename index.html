@@ -11,7 +11,9 @@
     <!-- ICONS -->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="stylesheet" href="assets/fonts/style.css" />
-    <link rel="stylesheet" href="assets/fonts-2/style.css" />
+
+     <!-- SWIPER -->
+     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />  
 
     <!-- STYLE CSS -->
     <link rel="stylesheet" href="style.css" />
@@ -23,6 +25,7 @@
       href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+
   </head>
   <body>
     <header id="header">
@@ -45,6 +48,9 @@
     </header>
 
     <main>
+
+      <!-- HOME -->
+
       <section class="section" id="home">
         <div class="container grid">
           <div class="image">
@@ -65,6 +71,8 @@
       </section>
 
       <div class="divider-1"></div>
+      
+      <!-- ABOUT -->
 
       <section class="section" id="about">
         <div class="container grid">
@@ -101,6 +109,8 @@
       </section>
 
       <div class="divider-2"></div>
+      
+      <!-- SERVICES -->
 
       <section class="section" id="services">
         <div class="container grid">
@@ -142,10 +152,78 @@
           </div>
         </div>
       </section>
+
+      <div class="divider-1"></div>
+
+      <!-- TESTIMONIAL -->
+
+      <section class="section" id="testimonials">
+        <div class="container">
+          <header>
+            <h2 class="title">Depoimentos de quem já passou por aqui</h2>
+          </header>
+          <div class="testimonials swiper-container">
+            <div class="swiper-wrapper">
+
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium ipsum dicta obcaecati.
+                  </p>
+                <cite>
+                  <img style="transform: rotate(-90deg);" src="assets/photos/bea.jpeg" alt="Foto de Bianca Peres">
+                  Bianca Peres
+                </cite>
+                </blockquote>
+              </div>
+
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium ipsum dicta obcaecati.
+                  </p>
+                <cite>
+                  <img src="assets/photos/72.jpg" alt="Foto de Franciele Venega">
+                  Franciele Venega
+                </cite>
+                </blockquote>
+              </div>
+
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium ipsum dicta obcaecati.
+                  </p>
+                <cite>
+                  <img src="assets/photos/9.jpg" alt="Foto de Valeska Fabris">
+                  Valeska Fabris
+                </cite>
+                </blockquote>
+              </div>
+
+            </div>
+
+            <!-- Se precisar de paginação -->
+            <!-- If we need pagination -->  
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+      
+
+      <!-- CONTACT -->
+      
     </main>
 
     <footer></footer>
 
+    <!-- SWIPER -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- MAIN.JS -->
     <script src="main.js"></script>
   </body>
 </html>
