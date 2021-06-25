@@ -44,6 +44,15 @@ const swiper = new Swiper('.swiper-container', {
   pagination: {
     el: '.swiper-pagination'
   },
-  mousewheel: true,
+  
   keyboard: true,
 });
+
+/* ScrollReview: Mostrar elementos quando der scroll na página */
+
+const ScrollReview = ScrollReview({
+  origin: 'top',
+  distance: '30px',
+  duration: 700,
+  reset: true
+})
