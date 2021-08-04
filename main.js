@@ -65,17 +65,22 @@ const scrollReveal = ScrollReveal({
 })
 
 scrollReveal.reveal(
-  `#home .image, #home .text, 
+  `#home .image, #home .text,
   #about .image, #about .text,
   #services header, #services .card,
   #testimonials header, #testimonials .testimonials,
   #contact .text, #contact .links,
-  footer .brand, footer .social,
+  footer .brand, footer .social
 `,  {interval: 100} ) 
+
+
+
 
 /* Botão voltar para o topo  */
 
 const backToTopButton = document.querySelector('.back-to-top')
+
+console.log(backToTopButton)
 
 window.addEventListener('scroll', function () {
   if(window.scrollY >= 560) {

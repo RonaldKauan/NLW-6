@@ -541,8 +541,8 @@ footer .social a:hover{
   font-size: 1.5rem;
   line-height: 0;
   
-  visibility: hidden;
-  opacity: 0;
+  visibility: visible;
+  opacity: 1;
 
   transition: 0.3s;
   transform: translateY(200%);
