@@ -396,6 +396,7 @@ nav.show div.icon-close{
 
 #testimonials {
   background: white;
+  overflow-x: hidden;
 }
 
 #testimonials .container {
